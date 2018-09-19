@@ -2,7 +2,7 @@ from datetime import datetime
 
 
 year_of_birth = int(input("Enter year of birth:"))
-current_year = date.today().year
+current_year = datetime.now().year
 current_age = current_year - year_of_birth
 
 
